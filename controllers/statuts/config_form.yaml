@@ -1,0 +1,10 @@
+name: Types
+form: $/digitalartisan/studio/models/statut/fields.yaml
+modelClass: DigitalArtisan\Studio\Models\Statut
+defaultRedirect: digitalartisan/studio/statuts
+create:
+    redirect: 'digitalartisan/studio/statuts/update/:id'
+    redirectClose: digitalartisan/studio/statuts
+update:
+    redirect: digitalartisan/studio/statuts
+    redirectClose: digitalartisan/studio/statuts

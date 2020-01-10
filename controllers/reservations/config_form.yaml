@@ -1,0 +1,10 @@
+name: Reservations
+form: $/digitalartisan/studio/models/reservation/fields.yaml
+modelClass: DigitalArtisan\Studio\Models\Reservation
+defaultRedirect: digitalartisan/studio/reservations
+create:
+    redirect: 'digitalartisan/studio/reservations/update/:id'
+    redirectClose: digitalartisan/studio/reservations
+update:
+    redirect: digitalartisan/studio/reservations
+    redirectClose: digitalartisan/studio/reservations

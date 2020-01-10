@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table digitalartisan_studio_reservations'
+    - builder_table_create_digitalartisan_studio_reservations.php
+1.0.3:
+    - 'Created table digitalartisan_studio_statuts'
+    - builder_table_create_digitalartisan_studio_statuts.php
+1.0.4:
+    - 'Seed statuts de réservations'
+    - seeder104.php

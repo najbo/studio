@@ -1,0 +1,27 @@
+plugin:
+    name: 'digitalartisan.studio::lang.plugin.name'
+    description: 'digitalartisan.studio::lang.plugin.description'
+    author: DigitalArtisan
+    icon: oc-icon-home
+    homepage: ''
+permissions:
+    digitalartisan_studio_statuts:
+        tab: 'Configuration studio'
+        label: 'Gère les différents statuts de résevations'
+    digitalartisan_studio_reservations:
+        tab: 'Configuration studio'
+        label: 'Gère les réservations'
+navigation:
+    studio:
+        label: Studio
+        url: digitalartisan/studio/reservations
+        icon: icon-home
+        sideMenu:
+            reservations:
+                label: Réservations
+                url: digitalartisan/studio/reservations
+                icon: icon-info
+            statuts:
+                label: Statuts
+                url: digitalartisan/studio/statuts
+                icon: icon-sitemap

@@ -1,0 +1,5 @@
+title: Statuts
+modelClass: DigitalArtisan\Studio\Models\Statut
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

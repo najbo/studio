@@ -1,0 +1,29 @@
+columns:
+    title:
+        label: Titre
+        type: text
+        searchable: true
+    start:
+        label: Du
+        type: date
+        searchable: true
+        sortable: true
+    end:
+        label: Fin
+        type: date
+        searchable: true
+        sortable: true
+    statut:
+        label: Statut
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: statut
+    tenant:
+        label: Locataire
+        type: text
+        searchable: true
+        sortable: true
+        select: 'concat(name, '' '' , surname)'
+        relation: tenant
